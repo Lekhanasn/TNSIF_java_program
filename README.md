@@ -20,13 +20,6 @@ This repository contains my Java assignments completed as part of the **TNS Indi
 - Getters and Setters
 - Object-Oriented Programming (OOP)
 
-**Classes:**
-- Airfare
-- AirIndia
-- KingFisher
-- Indigo
-- Main
-
 ---
 
 ### Assignment 03 - Ticket Booking System
@@ -35,11 +28,6 @@ This repository contains my Java assignments completed as part of the **TNS Indi
 - Constructors
 - Getters and Setters
 - Scanner Class
-- Billing System
-
-**Classes:**
-- TicketBooking
-- Main
 
 ---
 
@@ -48,15 +36,7 @@ This repository contains my Java assignments completed as part of the **TNS Indi
 - Custom Exceptions
 - Exception Handling
 - try-catch-finally
-- Constructors
 - Banking Operations
-- Object-Oriented Programming (OOP)
-
-**Classes:**
-- BankAccount
-- InvalidAmountException
-- InsufficientFundsException
-- Main
 
 ---
 
@@ -67,34 +47,6 @@ This repository contains my Java assignments completed as part of the **TNS Indi
 - Git
 - GitHub
 
----
-
-## 🚀 How to Run
-
-1. Open the assignment folder in VS Code.
-2. Compile the Java files:
-
-```bash
-javac *.java
-```
-
-3. Run the program:
-
-```bash
-java Main
-```
-
----
-
-## 👩‍🎓 Author
+## 👩‍💻 Author
 
 **Lekhana S N**
-
-Information Science and Engineering  
-Vidya Vikas Institute of Engineering and Technology
-
----
-
-### Repository
-
-This repository is regularly updated with Java assignments completed during the TNS India Foundation (TNSIF) training program.
