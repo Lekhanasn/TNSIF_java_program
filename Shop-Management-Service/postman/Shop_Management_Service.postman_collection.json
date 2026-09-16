@@ -1,0 +1,92 @@
+{
+  "info": {
+    "name": "Shop Management Service",
+    "_postman_id": "0b5d9a4f-47d9-4fd3-9a9b-shopmanagement",
+    "description": "CRUD collection for the Shopping Mall Management System - Shop Management Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Shops",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/shops",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "shops"]
+        }
+      }
+    },
+    {
+      "name": "Get Shop By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/shops/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "shops", "1"]
+        }
+      }
+    },
+    {
+      "name": "Add Shop",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Fashion Hub\",\n  \"ownerName\": \"Arun\",\n  \"category\": \"Clothing\",\n  \"floorNumber\": 1,\n  \"contact\": \"9876543210\",\n  \"monthlyRent\": 45000\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/shops",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "shops"]
+        }
+      }
+    },
+    {
+      "name": "Update Shop",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Fashion Hub Premium\",\n  \"ownerName\": \"Arun\",\n  \"category\": \"Clothing\",\n  \"floorNumber\": 2,\n  \"contact\": \"9876543210\",\n  \"monthlyRent\": 50000\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/shops/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "shops", "1"]
+        }
+      }
+    },
+    {
+      "name": "Delete Shop",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/shops/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "shops", "1"]
+        }
+      }
+    }
+  ]
+}
