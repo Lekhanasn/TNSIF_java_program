@@ -77,6 +77,7 @@ Spring Data JPA Repository
    ↓
 MySQL Database
 
+
 ## 💻 Technologies Used
 Java
 Spring Boot
@@ -87,6 +88,8 @@ Postman
 Visual Studio Code
 Git
 GitHub
+
+
 
 ## 👩‍💻 Author
 
